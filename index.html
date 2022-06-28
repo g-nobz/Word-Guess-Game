@@ -18,9 +18,13 @@
     
 
     <script type="text/javascript">
+        var wordChoices =["Ivysaur", "Metapod", "Pidgeot", "Rattata", "Spearow", "Pikachu", "Nidoran", "Venonat", "Diglett", "Dugtrio", "Persian", "Psyduck", "Golduck", "Poliwag", "Kadabra", "Machoke", "Machamp", "Geodude", "Slowbro", "Dewgong", "Haunter", "Drowzee", "Kingler", "Voltorb", "Marowak", "Koffing", "Weezing", "Rhyhorn", "Chansey", "Tangela", "Goldeen", "Seaking", "Starmie", "Scyther", "Jolteon", "Flareon", "Porygon", "Omanyte", "Omastar", "Snorlax", "Moltres", "Dratini"];
+
 
         document.onkeyup = function(event){
              var userInput = event.key;
+
+             var wordPick = computerChoices[Math.floor(Math.random() * computerChoices.length)];
         }
     </script>
 </body>
